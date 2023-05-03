@@ -1,0 +1,9 @@
+.body {
+    max-width: 500px;
+    margin: auto;
+    background: lightgray;
+  }
+
+.top-banner {
+    background-color: lightblue;
+}
