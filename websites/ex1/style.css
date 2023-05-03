@@ -1,9 +1,35 @@
-.body {
+body {
     max-width: 500px;
     margin: auto;
     background: lightgray;
+    padding: 10%; 
   }
 
 .top-banner {
     background-color: lightblue;
+    padding: 10px 20px 100px 10px;
+    border: 1px outset black;
+    border-radius: 5%;
+}
+
+.main-banner {
+    background-color: lightcoral;
+    padding: 10px 20px 100px 10px;
+    border: 1px outset black;
+    border-radius: 30%;
+}
+
+.bottom-banner {
+    background-color: lemonchiffon;
+    padding: 10px 20px 100px 10px;
+    border: 1px outset black;
+    border-radius: 30%;
+}
+
+
+.footer {
+    background-color: lightseagreen;
+    padding: 10px 20px 100px 10px;
+    border: 1px outset black;
+    border-radius: 30%;
 }
