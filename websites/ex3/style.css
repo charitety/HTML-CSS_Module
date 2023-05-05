@@ -5,17 +5,16 @@ html, body {
 }
 
 p {
-    font-display: flex;
-    font-size: 60%;
+    align-self: flex-end;
 }
 
 h1 {
     font-size: 38px;
 }
 
-.header {
+header {
     height: 6vmax;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: left;
     margin-left: 2vmax;
