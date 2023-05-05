@@ -4,28 +4,43 @@ body {
     margin: 0;
 }
 
-.logo-header {
-   display: flex;
-   background-color: white;
+header {   
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+
 }
 
 .menu-header {
     display: flex;
     align-items: right;
- }
-
-.middle-body {
-    display: flex;
-    border-top: 2px solid black;
- }
+    padding: 2.5%;
+}
 
 .middle-body {
     display: flex;
     background-color: white;
-    border-radius: 5%;
-    border-width: 1px;
-    padding-top: 15%;
-    padding-top: 25%;
-    height: 18vmax;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20%;
+    font-weight: bold;
+    justify-content: center;
     text-align: center;
+    padding-top: 100px;
+    height:180px;
  }
+
+ footer {
+    display: flex;
+    background-color: rgb(10, 86, 228);
+    color: lightgrey;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5%;
+    height: 100px;
+    overflow: auto;
+ }
+    
+
